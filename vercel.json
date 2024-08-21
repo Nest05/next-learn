@@ -1,6 +1,16 @@
 {
-    "projects": {
-      "root": "dashboard/starter-example"
-    }
+    "builds": [
+      {
+        "src": "dashboard/starter-example/next.config.mjs",
+        "use": "@vercel/next"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "dashboard/starter-example/$1"
+      }
+    ]
   }
+  
   
