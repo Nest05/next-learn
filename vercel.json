@@ -1,7 +1,7 @@
 {
     "builds": [
       {
-        "src": "dashboard/starter-example/next.config.mjs",
+        "src": "dashboard/starter-example/package.json",
         "use": "@vercel/next"
       }
     ],
@@ -12,5 +12,6 @@
       }
     ]
   }
+  
   
   
